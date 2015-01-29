@@ -1,3 +1,97 @@
-body {
-  font-family: 'sans-serif';
+body
+{
+    font-family: 'sans-serif';
+}
+
+.page
+{
+    width: 100%;
+    padding: 100px 0 100px 0;
+
+    background-color: white;
+}
+
+.content
+{
+    width: 600px;
+    margin: 0 auto 0 auto;
+
+    background-color: white;
+}
+
+.inline
+{
+    display: inline-block;
+}
+
+.memberPhoto
+{
+    width: 135px;
+    height: 150px;
+    margin: 5px;
+}
+
+.memberInfo
+{
+    font-size: 13px;
+
+    margin-bottom: 10px;
+    padding: 2px 0 0 5px;
+}
+
+.eventsContent
+{
+    margin-top: 15px;
+}
+
+.eventInfo
+{
+    font-size: 17px;
+    line-height: 19px;
+
+    height: 175px;
+    padding-top: 10px;
+}
+
+h1
+{
+    font-family: Century Gothic;
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 65px;
+
+    margin: 10px 0 10px 0;
+    padding: 0;
+
+    color: #49a447;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #49a447;
+}
+
+a:hover
+{
+    color: darkgreen;
+}
+
+div.b-link
+{
+    margin: 50px 0 0 0;
+
+    text-align: right;
+}
+
+a.b-link
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a.s-link
+{
+    font-size: 16px;
 }
