@@ -1,7 +1,8 @@
 body {
-  font-family: sans-serif;
+  font-family: Century Gothic;
   min-height: 100%;
 }
+
 
 .dc-green-background {
   background: #49A447;
@@ -82,7 +83,7 @@ body {
 
 .memberInfo
 {
-    font-size: 13px;
+    font-size: .9em;
     margin-bottom: 10px;
     padding: 2px 0 0 5px;
 }
@@ -95,16 +96,17 @@ body {
 
 .eventInfo
 {
-    font-size: 17px;
+    font-size: 1em;
     line-height: 19px;
     width: 50%;
     height: 175px;
     padding-top: 10px;
+    overflow: scroll;
 }
 
 .blogInfo {
   max-width: 275px;
-  font-size: 15px;
+  font-size: 1em;
   line-height: 19px;
 
   height: 200px;
@@ -114,7 +116,6 @@ body {
 
 h1
 {
-    font-family: Century Gothic;
     font-size: 80px;
     font-weight: lighter;
     line-height: 65px;
@@ -145,11 +146,12 @@ div.b-link
 
 a.b-link
 {
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 a.s-link
 {
-    font-size: 16px;
+    font-size: 1.2em;
+
 }
