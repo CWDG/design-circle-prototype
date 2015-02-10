@@ -39,12 +39,12 @@ body {
   padding: 0 40px;
   max-height: 100%;
   display: inline;
-  font-size: 1.5em;
 }
 
 .main-nav .vertically-centered ul li a {
   color: white;
   font-weight: lighter;
+  font-size: 1.5em;
 }
 
 .brand_image {
