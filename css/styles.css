@@ -101,7 +101,7 @@ body {
     width: 50%;
     height: 175px;
     padding-top: 10px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .blogInfo {
@@ -110,7 +110,7 @@ body {
   line-height: 19px;
 
   height: 200px;
-  overflow: scroll;
+  overflow: hidden;
   padding-top: 10px;
 }
 
