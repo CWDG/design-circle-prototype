@@ -202,3 +202,24 @@ input#contactFullName, input#contactAffiliation, input#contactEmail {
 input#contactFormSubmit {
   background-color: white;
 }
+
+#events {
+	height: 100%;
+}
+
+#events h1, #events a {
+	color: #59A447;
+}
+
+#events h1 {
+	font-size: 5em;
+}
+
+#events a {
+	font-size: 1.5em;
+}
+
+#events img {
+	width: 100%;
+}
+

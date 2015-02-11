@@ -1,6 +1,7 @@
 <html>
 <head>
   <title>Design Circle</title>
+	<meta charset="UTF-8">
   <link rel="stylesheet" href="css/styles.css" />
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
   <script src="js/jquery-2.1.3.min.js"></script>
@@ -9,6 +10,10 @@
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/jquery.scrollify.min.js"></script>
   <script src="js/main.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.6/fullcalendar.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.6/fullcalendar.min.js"></script> 
+	<script src="bootstrapmodal.js"></script>
 </head>
 <body>
   <nav class="main-nav dc-green-background">
@@ -139,59 +144,30 @@
         </div>
       </div>
       <div class="b-link">
-        <a class="b-link" href="http://www.google.com">Calendar of Events</a>
+				<a href="#" id="calendarLink" class="b-link" onclick="$('#fullCalModal').modal('show')">Calendar of Events</a>
       </div>
     </div>
   </div>
-  <div class="section">
-    <div class="content">
-      <h1>Blog</h1>
-      <div class="eventsContent">
-        <div class="inline">
-          <img class="eventsPhoto" src="eventsPhoto.png" />
-          <div class="blogInfo">
-            Title
-            <br>
-            Date
-            <br>
-            Natus, cor aut et adis autem inctotate
-            niam libus.
-            Nist, venderatur? Oditam, vel ipis
-            experiberepe porestistio omnihiti con
-            core dolenis molupta erumenis acerum
-            et est, etur magnime net volor
-            simusaperia solor re quamusae. Ut
-            acero es peria et dolestem. Omnimus
-            comnis molessi nulparchit, sin custion.
-          </div>
-          <a class="s-link" href="http://www.google.com">Link to more information</a>
+
+<div id="fullCalModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span> <span class="sr-only">close</span></button>
+                <h4 id="modalTitle" class="modal-title"></h4>
+            </div>
+            <div id="modalBody" class="modal-body">
+							<div id ="bootstrapModalFullCalendar"></div>
+						</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
         </div>
-        <div class="inline">
-          <img class="eventsPhoto" src="eventsPhoto.png" />
-          <div class="blogInfo">
-            Title
-            <br>
-            Date
-            <br>
-            Quatatur si berum, omnis site dollupti
-            quis sandandae cuptaspicae quostis
-            nonsequam, que si dit fuga. Qui dolorei
-            undam, ut quam acimagnat es
-            essin res molorep erumquid qui aut ea
-            venture peliquo culluptaest aut volesti
-            orerrum comnim simodit acesequat.
-            Ehentec tiatiae. Daecto molupta tiossit
-            dolla numquam, quiduci llenda peri.
-          </div>
-          <a class="s-link" href="http://www.google.com">Link to more information</a>
-        </div>
-      </div>
-      <div class="b-link">
-        <a class="b-link" href="http://www.google.com">Archive</a>
-      </div>
     </div>
-  </div>
-  <div class="section">
+</div>
+
+
+<div class="section">
     <div class="content">
       <h1>Let's Talk!</h1>
       <div class="contactFormContainer inline">
