@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Century Gothic;
   min-height: 100%;
@@ -14,9 +19,8 @@ body {
 
 .main-nav {
   width: 100%;
-  height: 100px;
+  height: 90px;
   position: fixed;
-  padding-left: 2%;
   bottom: 0;
 }
 
@@ -40,12 +44,12 @@ body {
   padding: 0 40px;
   max-height: 100%;
   display: inline;
-  font-size: 1.5em;
 }
 
 .main-nav .vertically-centered ul li a {
   color: white;
   font-weight: lighter;
+  font-size: 1.5em;
 }
 
 .brand_image {
@@ -53,7 +57,7 @@ body {
   display: inline;
 }
 
-.page
+.section
 {
     width: 100%;
     padding: 0px 0 150px 0;
@@ -154,4 +158,8 @@ a.s-link
 {
     font-size: 1.2em;
 
+}
+
+div.section {
+  min-height: 100%;
 }
