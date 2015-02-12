@@ -204,6 +204,13 @@ input#contactFormSubmit {
   background-color: white;
 }
 
+div.contactComplete {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 15%;
+}
+
 #events {
 	height: 100%;
 }
