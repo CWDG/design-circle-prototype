@@ -4,18 +4,18 @@ $(document).ready(function() {
     });
 
     $("#about-link").click(function() {
-        $.scrollify("move", 0)
-    });
-
-    $("#events-link").click(function() {
         $.scrollify("move", 1)
     });
 
-    $("#news-link").click(function() {
+    $("#events-link").click(function() {
         $.scrollify("move", 2)
     });
 
+    $("#news-link").click(function() {
+        $.scrollify("move", 4)
+    });
+
     $("#contact-link").click(function() {
-        $.scrollify("move", 3)
+        $.scrollify("move", 5)
     });
 });
