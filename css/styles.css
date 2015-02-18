@@ -131,24 +131,25 @@ h1
     color: #49a447;
 }
 
-table {
+div.blogArchives table {
   max-height: 500px;
   border: dimgray 1px solid;
 }
 
-th, td {
+div.blogArchives th,
+div.blogArchives td {
   height: 50px;
   width: 200px;
   text-align: center;
   font-weight: lighter;
 }
 
-th {
+div.blogArchives th {
   background: dimgray;
   color: white;
 }
 
-td {
+div.blogArchives td {
   max-height: 50px;
 }
 
