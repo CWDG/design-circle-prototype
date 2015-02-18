@@ -133,6 +133,7 @@ h1
 
 table {
   max-height: 500px;
+  border: dimgray 1px solid;
 }
 
 th, td {
@@ -140,7 +141,6 @@ th, td {
   width: 200px;
   text-align: center;
   font-weight: lighter;
-  border: dimgray 1px solid;
 }
 
 th {
