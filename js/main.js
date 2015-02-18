@@ -18,5 +18,5 @@ $(document).ready(function() {
     $('#exitBlogArchives').click(function() {
       $('.blogArchives').hide();
       $('#blogContent').fadeIn('slow');
-    })
+    });
 });
