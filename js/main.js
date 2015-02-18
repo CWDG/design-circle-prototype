@@ -7,8 +7,7 @@ $(document).ready(function() {
     });
 
     $('#contactFormSubmit').click(function() {
-      $('#contactFormContent').hide();
-      $('.contactComplete').fadeIn('slow');
+      swal("Sumbission Successful!", "We'll get back to you as soon as we can", "success");
     });
 
     $('#blogArchivesLink').click(function() {
