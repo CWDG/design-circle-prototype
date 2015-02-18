@@ -230,3 +230,32 @@ input#contactFormSubmit {
 #events img {
 	width: 100%;
 }
+
+.ex1 {
+        margin-top:150px;
+	color:#49a447;
+	font-size:8em;
+}
+
+.exAboutTop{
+        margin-top:100px;
+	color:#49a447;
+	font-size:6em;
+}
+
+.exAboutBody {
+        margin-bottom:100px;
+	font-size:1.1em;
+}
+.ex2 {
+        background-image:url(http://animalia-life.com/data_images/cat/cat2.jpg);
+        background-repeat:no-repeat;
+        background-color:white;
+        background-size:2000px 800px;
+        margin-bottom:100px;
+}
+
+.Margin {
+        margin-top:250px;
+}
+
