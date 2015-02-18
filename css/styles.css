@@ -131,6 +131,27 @@ h1
     color: #49a447;
 }
 
+table {
+  max-height: 500px;
+}
+
+th, td {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-weight: lighter;
+  border: dimgray 1px solid;
+}
+
+th {
+  background: dimgray;
+  color: white;
+}
+
+td {
+  max-height: 50px;
+}
+
 a
 {
     text-decoration: none;
