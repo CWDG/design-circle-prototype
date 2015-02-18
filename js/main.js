@@ -14,5 +14,10 @@ $(document).ready(function() {
     $('#blogArchivesLink').click(function() {
       $('#blogContent').hide();
       $('.blogArchives').fadeIn('slow');
+    });
+
+    $('#exitBlogArchives').click(function() {
+      $('.blogArchives').hide();
+      $('#blogContent').fadeIn('slow');
     })
 });
